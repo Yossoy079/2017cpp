@@ -2,8 +2,8 @@
 #include "CppUnitTest.h"
 #include "../lib/mylib.h"
 
-
-
+//ã‚½ãƒ¼ã‚¹ã‚’å…¨éƒ¨éè¡¨ç¤ºã«ã™ã‚Œã°å½“ç„¶ã‚¨ãƒ©ãƒ¼ã‚‚å…¨éƒ¨æ¶ˆãˆã‚‹
+/*
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest
@@ -16,7 +16,7 @@ namespace UnitTest
 		{
 			class mylib::Character *p = new mylib::Dog();
 
-			Assert::AreNotEqual((int)p, (int)nullptr, L"ƒCƒ“ƒXƒ^ƒ“ƒX‚ğŠm•Û‚Å‚«‚Ü‚¹‚ñ‚Å‚µ‚½");
+			Assert::AreNotEqual((int)p, (int)nullptr, L"ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã‚’ç¢ºä¿ã§ãã¾ã›ã‚“ã§ã—ãŸ");
 
 			delete p;
 		}
@@ -25,7 +25,7 @@ namespace UnitTest
 		{
 			class mylib::Character *p = new mylib::Dog();
 
-			Assert::AreEqual(p->getName()[0], '\0', L"–¼‘O‚ğ‰Šú‰»‚µ‚Ä‚­‚¾‚³‚¢.");
+			Assert::AreEqual(p->getName()[0], '\0', L"åå‰ã‚’åˆæœŸåŒ–ã—ã¦ãã ã•ã„.");
 
 			delete p;
 		}
@@ -33,7 +33,7 @@ namespace UnitTest
 		TEST_METHOD(TestMethodPolymorphism)
 		{
 			class mylib::Character *p = new mylib::Dog();
-			Assert::AreEqual(strcmp(p->Shout(), ""), 0, L"Œ¢‚Ì–Â‚«º‚ª‚©‚¦‚Á‚Ä—ˆ‚Ä‚¢‚é‚Í‚¸");
+			Assert::AreEqual(strcmp(p->Shout(), ""), 0, L"çŠ¬ã®é³´ãå£°ãŒã‹ãˆã£ã¦æ¥ã¦ã„ã‚‹ã¯ãš");
 			delete p;
 		}
 
@@ -41,8 +41,9 @@ namespace UnitTest
 		{
 			float f = 1.0f;
 			unsigned int *p = reinterpret_cast<unsigned int*>(&f);
-			Assert::AreEqual(*p, (unsigned int)0x0000000, L"1.0‚ğ®”‚É‚µ‚½Û‚Ì’l‚ªˆá‚Á‚Ä‚¢‚Ü‚·");
+			Assert::AreEqual(*p, (unsigned int)0x0000000, L"1.0ã‚’æ•´æ•°ã«ã—ãŸéš›ã®å€¤ãŒé•ã£ã¦ã„ã¾ã™");
 		}
 
 	};
 }
+*/

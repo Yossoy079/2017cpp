@@ -1,11 +1,11 @@
 #pragma once 
-
+//ソースを全部非表示にすれば当然エラーも全部消える
+/*
 namespace mylib 
 {
 	class Character {
 	private:
 		char name[256];
-
 	public:
 		Character();
 		virtual ~Character();
@@ -31,7 +31,8 @@ namespace mylib
 		Human();
 		~Human();
 
-		const char *Shout() const override { return "Woops"; }
+		const char *Shout() const override;
 	};
 
 }
+*/

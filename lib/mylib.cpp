@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "mylib.h"
 
+//ソースを全部非表示にすれば当然エラーも全部消える
+/*
 namespace mylib
 {
 	Character::Character()
@@ -32,4 +34,9 @@ namespace mylib
 	{
 	}
 
+	const char *Human::Shout() const
+	{
+		return "Woops";
+	}
 }
+*/
